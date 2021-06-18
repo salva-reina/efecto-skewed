@@ -18,7 +18,7 @@ body {
 }
 
 .uno {
-  background: url(../img/arriba.PNG);
+  background: url(../img/oficina.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -35,5 +35,18 @@ body {
 }
 
 .tres {
-  background: url(../img/abajo.PNG);
+  background: url(../img/oficina.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.sesgodos {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-width: 15vh 100vw 0 0;
+  border-style: solid;
+  border-color: #fff transparent transparent transparent;
 }
