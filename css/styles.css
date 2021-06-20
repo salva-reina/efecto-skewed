@@ -50,3 +50,52 @@ body {
   border-style: solid;
   border-color: #fff transparent transparent transparent;
 }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.logo {
+  height: 100px;
+}
+
+.logo img {
+  height: 100%;
+}
+
+.contenedor {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.enlace a {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 400;
+  margin-left: 20px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: 700;
+}
+
+.texto p {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.texto {
+  text-align: center;
+  color: #fff;
+  margin: 150px;
+}
